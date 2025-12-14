@@ -1450,7 +1450,7 @@ h1, h2, h3, h4, h5, h6 {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 64px 18px 54px;
+        padding: 76px 18px 54px; /* extra top space so subtitle 'Ostrowiec Świętokrzyski' clears the navbar */
     }
     .hero-content {
         display: flex;
@@ -1650,7 +1650,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 640px) {
     .hero {
         min-height: 100svh;
-        padding: 58px 16px 46px;
+        padding: 70px 16px 46px;
     }
     .hero-badge { 
         margin-bottom: 10px;
@@ -1696,3 +1696,4 @@ h1, h2, h3, h4, h5, h6 {
         padding: 32px 20px;
     }
 }
+
