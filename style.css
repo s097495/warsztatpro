@@ -435,8 +435,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 640px) {
     .hero {
         padding-top: 72px;
+        padding-bottom: 72px;
         padding-left: 16px;
         padding-right: 16px;
+        align-items: center;
     }
     .hero-cta {
         flex-direction: column;
@@ -444,6 +446,14 @@ h1, h2, h3, h4, h5, h6 {
         gap: 10px;
     }
     .hero-subtitle { max-width: 92vw; }
+
+    /* Mobile contact: keep neutral borders on focus */
+    .form-group input:focus,
+    .form-group textarea:focus {
+        border-color: var(--border-color);
+        background: var(--bg-darker);
+        box-shadow: none;
+    }
 }
 
 .hero-stats {
