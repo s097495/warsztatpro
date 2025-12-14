@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warsztat Samoobsługowy Ostrowiec | Nowoczesne Stanowiska Warsztatowe</title>
+    <meta name="description" content="Profesjonalny warsztat samoobsługowy w Ostrowcu Świętokrzyskim. Wynajem stanowisk warsztatowych dla klientów indywidualnych i mechaników.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-size='56'%3E%F0%9F%94%A7%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+    
+    <!-- Floating CTA Button (Mobile) -->
+    <a href="#kontakt" class="floating-cta" id="floatingCTA">
+        <span>Umów wizytę</span>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">🔧</span>
+                    <span class="logo-text">WARSZTAT<span class="accent">PRO</span></span>
+                </div>
+                <div class="nav-links">
+                    <a href="#o-nas" class="nav-link">O nas</a>
+                    <a href="#jak-dziala" class="nav-link">Jak to działa</a>
+                    <a href="#stanowiska" class="nav-link">Stanowiska</a>
+                    <a href="#cennik" class="nav-link">Cennik</a>
+                    <a href="#kontakt" class="nav-link nav-link-cta">Kontakt</a>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <img src="images/hero.jpg" alt="Warsztat" class="hero-bg">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge fade-in">Ostrowiec Świętokrzyski</div>
+                <h1 class="hero-title fade-in">
+                    Nowoczesny warsztat<br>
+                    <span class="accent-gradient">samoobsługowy</span>
+                </h1>
+                <p class="hero-subtitle fade-in">
+                    Naprawiaj sam lub skorzystaj z usług sprawdzonych mechaników
+                </p>
+                <div class="hero-cta fade-in">
+                    <a href="#kontakt" class="btn btn-primary btn-large">
+                        <span>Umów wizytę</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                    <a href="tel:781470016" class="btn btn-secondary btn-large">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M2 3C2 2.44772 2.44772 2 3 2H5.15287C5.64171 2 6.0589 2.35341 6.13927 2.8356L6.87858 7.27147C6.95075 7.70451 6.73206 8.13397 6.3394 8.3303L4.79126 9.10437C5.90756 11.8783 8.12168 14.0924 10.8956 15.2087L11.6697 13.6606C11.866 13.2679 12.2955 13.0492 12.7285 13.1214L17.1644 13.8607C17.6466 13.9411 18 14.3583 18 14.8471V17C18 17.5523 17.5523 18 17 18H15C7.8203 18 2 12.1797 2 5V3Z" fill="currentColor"/>
+                        </svg>
+                        <span>781 470 016</span>
+                    </a>
+                </div>
+                <div class="hero-stats fade-in">
+                    <div class="stat-item">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Stanowiska</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">🌡️</div>
+                        <div class="stat-label">Ogrzewane & Klimatyzowane</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="o-nas">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-label">O nas</span>
+                <h2 class="section-title">Profesjonalne stanowiska<br>dla każdego</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-card fade-in-up">
+                    <img src="images/about.jpg" alt="Warsztat" class="about-bg-image">
+                    <div class="about-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" stroke="currentColor" stroke-width="3"/>
+                            <path d="M24 16V24L30 30" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <p class="about-text">
+                        Oferujemy wynajem w pełni wyposażonych stanowisk warsztatowych. 
+                        Możesz samodzielnie naprawić auto lub skorzystać z usług mechaników, 
+                        z którymi współpracujemy – <span class="accent">z gwarancją</span>.
+                    </p>
+                    <a href="#kontakt" class="btn btn-outline">
+                        <span>Skontaktuj się</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience Section -->
+    <section class="audience section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-label">Dla kogo</span>
+                <h2 class="section-title">Warsztat dla każdego</h2>
+            </div>
+            <div class="audience-grid">
+                <div class="audience-card fade-in-up">
+                    <div class="audience-icon">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                            <circle cx="32" cy="20" r="12" stroke="currentColor" stroke-width="3"/>
+                            <path d="M10 54C10 42 18 32 32 32C46 32 54 42 54 54" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="audience-title">Klienci indywidualni</h3>
+                    <ul class="audience-list">
+                        <li>Osoby prywatne</li>
+                        <li>Pasjonaci motoryzacji</li>
+                        <li>Majsterkowicze</li>
+                    </ul>
+                    <div class="audience-highlight">Napraw sam – oszczędź pieniądze</div>
+                </div>
+                <div class="audience-card fade-in-up">
+                    <div class="audience-icon">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                            <path d="M32 8L8 20V32C8 44 16 54 32 56C48 54 56 44 56 32V20L32 8Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+                            <path d="M24 32L30 38L42 26" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="audience-title">Profesjonalni mechanicy</h3>
+                    <ul class="audience-list">
+                        <li>Mechanicy bez stanowiska</li>
+                        <li>Rozwijające się firmy</li>
+                        <li>Specjaliści mobilni</li>
+                    </ul>
+                    <div class="audience-highlight">Profesjonalne wyposażenie na wyciągnięcie ręki</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works section" id="jak-dziala">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-label">Proces</span>
+                <h2 class="section-title">Jak to działa?</h2>
+                <p class="section-description">Prosty proces w 4 krokach</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card fade-in-up">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M38 8H10C8.89543 8 8 8.89543 8 10V38C8 39.1046 8.89543 40 10 40H38C39.1046 40 40 39.1046 40 38V10C40 8.89543 39.1046 8 38 8Z" stroke="currentColor" stroke-width="3"/>
+                            <path d="M16 8V4M32 8V4M8 16H40" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Kontakt</h3>
+                    <p class="step-description">Zadzwoń lub wypełnij formularz kontaktowy</p>
+                </div>
+                <div class="step-card fade-in-up">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="3"/>
+                            <path d="M24 12V24L32 28" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Ustalenie terminu</h3>
+                    <p class="step-description">Wspólnie wybieramy dogodny termin</p>
+                </div>
+                <div class="step-card fade-in-up">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 40C32.8366 40 40 32.8366 40 24C40 15.1634 32.8366 8 24 8C15.1634 8 8 15.1634 8 24C8 32.8366 15.1634 40 24 40Z" stroke="currentColor" stroke-width="3"/>
+                            <path d="M34 18L22 30L14 22" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Przyjazd</h3>
+                    <p class="step-description">Przyjeżdżasz do warsztatu w ustalonym czasie</p>
+                </div>
+                <div class="step-card fade-in-up">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M42 32L38 28V20L42 16M6 32L10 28V20L6 16" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <rect x="10" y="16" width="28" height="16" rx="2" stroke="currentColor" stroke-width="3"/>
+                            <path d="M18 24H30M24 18V30" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Działamy!</h3>
+                    <p class="step-description">Naprawiasz auto samodzielnie z pełnym dostępem do narzędzi lub zlecasz pracę naszym sprawdzonym mechanikom</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stations Section -->
+    <section class="stations section" id="stanowiska">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-label">Wyposażenie</span>
+                <h2 class="section-title">4 profesjonalne<br>stanowiska</h2>
+            </div>
+            <div class="stations-grid">
+                <div class="station-card fade-in-up">
+                    <div class="station-number">01</div>
+                    <div class="station-icon">
+                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
+                            <path d="M28 48C38.4934 48 47 39.4934 47 29C47 18.5066 38.4934 10 28 10C17.5066 10 9 18.5066 9 29C9 39.4934 17.5066 48 28 48Z" stroke="currentColor" stroke-width="3"/>
+                            <path d="M28 20V29L35 35" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="station-title">Klimatyzacja</h3>
+                    <p class="station-description">Profesjonalny serwis i diagnostyka klimatyzacji</p>
+                    <div class="station-features">
+                        <span class="feature-tag">Uzupełnianie czynnika</span>
+                        <span class="feature-tag">Diagnostyka</span>
+                        <span class="feature-tag">Dezynfekcja</span>
+                    </div>
+                </div>
+                <div class="station-card fade-in-up">
+                    <div class="station-number">02</div>
+                    <div class="station-icon">
+                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
+                            <circle cx="16" cy="38" r="8" stroke="currentColor" stroke-width="3"/>
+                            <circle cx="40" cy="38" r="8" stroke="currentColor" stroke-width="3"/>
+                            <path d="M8 38H48M24 38V20M32 38V20M20 20H36C38 20 40 18 40 16V12C40 10 38 8 36 8H20C18 8 16 10 16 12V16C16 18 18 20 20 20Z" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="station-title">Zawieszenie i hamulce</h3>
+                    <p class="station-description">Kompleksowa obsługa układu jezdnego i hamulcowego</p>
+                    <div class="station-features">
+                        <span class="feature-tag">Amortyzatory</span>
+                        <span class="feature-tag">Klocki i tarcze</span>
+                        <span class="feature-tag">Geometria</span>
+                    </div>
+                </div>
+                <div class="station-card fade-in-up">
+                    <div class="station-number">03</div>
+                    <div class="station-icon">
+                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
+                            <path d="M20 12L28 4L36 12M28 4V28" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8 20H48V44C48 46.2091 46.2091 48 44 48H12C9.79086 48 8 46.2091 8 44V20Z" stroke="currentColor" stroke-width="3"/>
+                            <path d="M20 28H36M20 36H36" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="station-title">Naprawy ogólne</h3>
+                    <p class="station-description">Uniwersalne stanowisko do napraw mechanicznych</p>
+                    <div class="station-features">
+                        <span class="feature-tag">Wymiana oleju</span>
+                        <span class="feature-tag">Filtry</span>
+                        <span class="feature-tag">Diagnostyka</span>
+                    </div>
+                </div>
+                <div class="station-card fade-in-up">
+                    <div class="station-number">04</div>
+                    <div class="station-icon">
+                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
+                            <circle cx="28" cy="28" r="18" stroke="currentColor" stroke-width="3"/>
+                            <circle cx="28" cy="28" r="12" stroke="currentColor" stroke-width="3"/>
+                            <circle cx="28" cy="28" r="6" stroke="currentColor" stroke-width="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="station-title">Wulkanizacja i piaskowanie</h3>
+                    <p class="station-description">Serwis opon i przygotowanie powierzchni</p>
+                    <div class="station-features">
+                        <span class="feature-tag">Wymiana opon</span>
+                        <span class="feature-tag">Wyważanie</span>
+                        <span class="feature-tag">Piaskowanie</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-label">Usługi</span>
+                <h2 class="section-title">Co możesz zrobić<br>w naszym warsztacie</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">❄️</div>
+                    <h3 class="service-title">Klimatyzacja</h3>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">🔩</div>
+                    <h3 class="service-title">Układ zawieszenia i hamulcowy</h3>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">🔧</div>
+                    <h3 class="service-title">Naprawy ogólne</h3>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">⚙️</div>
+                    <h3 class="service-title">Serwis olejowy</h3>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">🎯</div>
+                    <h3 class="service-title">Diagnostyka</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Autodata Section -->
+    <section class="autodata section">
+        <div class="container">
+            <div class="autodata-content fade-in-up">
+                <div class="autodata-badge">PREMIUM</div>
+                <div class="autodata-icon">
+                    <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                        <path d="M40 70C56.5685 70 70 56.5685 70 40C70 23.4315 56.5685 10 40 10C23.4315 10 10 23.4315 10 40C10 56.5685 23.4315 70 40 70Z" stroke="currentColor" stroke-width="3"/>
+                        <path d="M40 25V40L52 52" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="40" cy="40" r="4" fill="currentColor"/>
+                    </svg>
+                </div>
+                <h2 class="autodata-title">AUTODATA</h2>
+                <p class="autodata-description">
+                    Korzystamy z pełnej wersji AUTODATA – profesjonalnego systemu 
+                    danych technicznych i diagnostycznych
+                </p>
+                <div class="autodata-features">
+                    <div class="autodata-feature">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Schematy elektryczne</span>
+                    </div>
+                    <div class="autodata-feature">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Momenty dokręcania</span>
+                    </div>
+                    <div class="autodata-feature">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Procedury serwisowe</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing section" id="cennik">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-label">Cennik</span>
+                <h2 class="section-title">Przejrzyste ceny</h2>
+            </div>
+            <div class="pricing-cards">
+                <div class="pricing-card fade-in-up">
+                    <div class="pricing-label">Wynajem godzinowy</div>
+                    <div class="pricing-amount">
+                        <span class="price">35</span>
+                        <span class="currency">zł</span>
+                    </div>
+                    <div class="pricing-period">za godzinę</div>
+                    <ul class="pricing-features">
+                        <li>Dostęp do pełnego wyposażenia</li>
+                        <li>AUTODATA</li>
+                        <li>Wsparcie techniczne</li>
+                        <li>Bezpłatny parking</li>
+                    </ul>
+                    <a href="#kontakt" class="btn btn-outline btn-full">Umów wizytę</a>
+                </div>
+                <div class="pricing-card pricing-card-featured fade-in-up">
+                    <div class="pricing-label">Wynajem długoterminowy</div>
+                    <div class="pricing-amount">
+                        <span class="price">?</span>
+                    </div>
+                    <div class="pricing-period">wycena indywidualna</div>
+                    <ul class="pricing-features">
+                        <li>Wszystko z pakietu godzinowego</li>
+                        <li>Priorytetowy dostęp</li>
+                        <li>Dedykowane stanowisko</li>
+                        <li>Atrakcyjne rabaty</li>
+                    </ul>
+                    <a href="#kontakt" class="btn btn-primary btn-full">Skontaktuj się</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-label">Zobacz</span>
+                <h2 class="section-title">Nasze stanowiska</h2>
+            </div>
+            <div class="gallery-grid">
+                <!-- Zamień "images/stanowisko1.jpg" na ścieżkę do swoich zdjęć -->
+                <div class="gallery-item fade-in-up">
+                    <img src="images/stanowisko1.jpg" alt="Stanowisko warsztatowe nr 1" data-description="Zestaw kluczy dynamometrycznych (zakres pracy od 5 do 200 Nm) • Czujnik do sprawdzania bicia tarcz hamulcowych • Przyrząd do ściągania sprężyn" loading="lazy">
+                </div>
+                <div class="gallery-item fade-in-up">
+                    <img src="images/stanowisko2.jpg" alt="Stanowisko warsztatowe nr 2" data-description="Stacja klimatyzacji (napełnianie klimatyzacji, płukanie układu, diagnostyka, sprawdzenie szczelności, ozonowanie)" loading="lazy">
+                </div>
+                <div class="gallery-item fade-in-up">
+                    <img src="images/stanowisko3.jpg" alt="Stanowisko warsztatowe nr 3" data-description="Zestawy kluczy i nasadek • Klucz udarowy 1050 Nm" loading="lazy">
+                </div>
+                <div class="gallery-item fade-in-up">
+                    <img src="images/stanowisko4.jpg" alt="Stanowisko warsztatowe nr 4" data-description="Spawarka • Giętarka do blach • Giętarka do przewodów hamulcowych" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="kontakt">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-label">Kontakt</span>
+                <h2 class="section-title">Umów się na wizytę</h2>
+                <p class="section-description">Skontaktuj się z nami telefonicznie lub wypełnij formularz</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info fade-in-up">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M4 6C4 4.89543 4.89543 4 6 4H10.3046C11.2829 4 12.1178 4.70682 12.2785 5.6712L13.7572 14.5429C13.9015 15.409 13.4641 16.268 12.6788 16.6606L9.58252 18.2087C11.8151 23.7566 16.2434 28.1849 21.7913 30.4175L23.3394 27.3212C23.732 26.5359 24.591 26.0985 25.4571 26.2428L34.3288 27.7215C35.2932 27.8822 36 28.7171 36 29.6954V34C36 35.1046 35.1046 36 34 36H30C16.7452 36 6 25.2548 6 12V6Z" transform="scale(0.8) translate(2, 2)" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="contact-label">Telefon</div>
+                            <a href="tel:781470016" class="contact-value">781 470 016</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <rect x="4" y="6" width="24" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <path d="M4 8L16 17L28 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="contact-label">Email</div>
+                            <a href="mailto:warsztatostrowiec@wp.pl" class="contact-value">warsztatostrowiec@wp.pl</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M16 2C8.26875 2 2 8.26875 2 16C2 23.7313 8.26875 30 16 30C23.7313 30 30 23.7313 30 16C30 8.26875 23.7313 2 16 2ZM21.8375 16.6875H19.3438V24.8125H16.1563V16.6875H14.0625V13.8438H16.1563V12.3438C16.1563 10.3625 17.0813 8.84375 19.3125 8.84375C20.2813 8.84375 21.0625 8.9375 21.3875 8.98125V11.5625H19.8438C18.6438 11.5625 18.4313 12.1375 18.4313 13.0313V13.8438H21.3125L20.9375 16.6875H18.4313V24.8125H21.8375V16.6875Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="contact-label">Facebook</div>
+                            <a href="https://www.facebook.com/people/Samoobs%C5%82ugowy-warsztat-samochodowy-Ostrowiec-%C5%9Aw-Jakub-G%C3%B3ra/100083356179616/#" target="_blank" class="contact-value">Samoobsługowy warsztat - Jakub Góra</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M16 28C16 28 26 20 26 12C26 6.47715 21.5228 2 16 2C10.4772 2 6 6.47715 6 12C6 20 16 28 16 28Z" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="16" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="contact-label">Adres</div>
+                            <div class="contact-value">Szewna, ul. Langiewicza 35</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-hours">
+                        <div class="contact-hours-header">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2"/>
+                                <path d="M16 8V16L21 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <h3>Godziny otwarcia</h3>
+                        </div>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span class="hours-day">Poniedziałek – Piątek</span>
+                                <span class="hours-time">9:00 – 17:00</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="hours-day">Sobota</span>
+                                <span class="hours-time">9:00 – 13:00</span>
+                            </div>
+                            <div class="hours-item hours-closed">
+                                <span class="hours-day">Niedziela</span>
+                                <span class="hours-time">Nieczynne</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.2554033905676!2d21.369540476061566!3d50.9189922716855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471808f5e69c3285%3A0xb1482168280e467d!2sLangiewicza%2035%2C%2027-400%20Szewna!5e0!3m2!1spl!2spl!4v1765712547349!5m2!1spl!2spl"
+                            width="100%" 
+                            height="300" 
+                            style="border:0; border-radius: 12px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper fade-in-up">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Imię i nazwisko</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferowany termin</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Wiadomość</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Wyślij zapytanie</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="logo">
+                        <span class="logo-icon">🔧</span>
+                        <span class="logo-text">WARSZTAT<span class="accent">PRO</span></span>
+                    </div>
+                    <p class="footer-description">
+                        Nowoczesny warsztat samoobsługowy<br>
+                        w Ostrowcu Świętokrzyskim
+                    </p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="#o-nas">O nas</a>
+                        <a href="#stanowiska">Stanowiska</a>
+                        <a href="#cennik">Cennik</a>
+                        <a href="#kontakt">Kontakt</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WarsztatPro - Jakub Góra. Wszystkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <div class="lightbox-container">
+            <img class="lightbox-content" id="lightboxImg">
+            <p class="lightbox-description" id="lightboxDescription"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
